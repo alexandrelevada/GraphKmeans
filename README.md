@@ -1,3 +1,3 @@
-# GraphKmeans
-A graph-based k-means algorithm using geodesic distances
+# A graph-based k-means algorithm using geodesic distances
+
 One of the most crucial tasks in pattern recognition and machine learning is data clustering. Many clustering techniques have been developed to avoid the drawbacks of unsupervised learning. However, high-dimensional data clustering is still difficult, despite the advances in the field. In this work, we introduce a graph-based k-means for data clustering that computes geodesic distances between sample points in the discrete approximation data manifold using the Dijkstra algorithm. As our algorithm is linear in both the number of samples and edges of the k-nearest neighbors graph, its computational complexity is quite low when compared to contemporary clustering algorithms. Experiments using real datasets demonstrate that the proposed method is capable of improving the quality of the obtained clusters in terms of external validity measures in comparison to HDBSCAN, a state-of-the-art algorithm for clustering.
